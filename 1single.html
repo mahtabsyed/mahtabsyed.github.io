@@ -8,7 +8,8 @@ layout: default
 <script>
   async function loaded(reader) {
     const response = await fetch(
-      "https://hf.space/embed/jph00/pets/+/api/predict/",
+      // "https://hf.space/embed/jph00/pets/+/api/predict/",
+      "https://mahtabsyed-image-class.hf.space/predict/",
       {
         method: "POST",
         body: JSON.stringify({ data: [reader.result] }),
