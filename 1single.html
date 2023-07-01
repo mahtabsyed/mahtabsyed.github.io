@@ -3,11 +3,11 @@ title: 1. Single file
 layout: default
 ---
 
-import { client } from "@gradio/client";
-
 <input id="photo" type="file" />
 <div id="results"></div>
+
 <script>
+  import { client } from "@gradio/client";
   async function loaded(reader) {
     const response = await client("https://mahtabsyed-image-class.hf.space/");
     const json = await app.predict("/predict", [reader.result]);
