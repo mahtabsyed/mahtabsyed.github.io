@@ -1,0 +1,15 @@
+{
+  "name": "mahtabsyed.github.io",
+  "version": "1.0.0",
+  "description": "A simple site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@gradio/client": "^0.1.4"
+  }
+}
