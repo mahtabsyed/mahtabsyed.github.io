@@ -6,7 +6,7 @@ layout: default
 <input id="photo" type="file" />
 <div id="results"></div>
 
-<script>
+<script type="module">
   import { client } from "@gradio/client";
   async function loaded(reader) {
     const response = await client("https://mahtabsyed-image-class.hf.space/");
